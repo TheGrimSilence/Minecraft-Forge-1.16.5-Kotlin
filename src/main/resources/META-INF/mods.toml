@@ -4,10 +4,8 @@ modLoader="kotlinforforge"
 loaderVersion="[1.9,)" # Require at least 1.9.x
 # License is REQUIRED after 1.16
 license='LGPL'
-
-# A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]]
-modId="examplemod"
+modId="examplemodd"
 version="${file.jarVersion}"
 displayName="ExampleMod"
 credits="The ExampleMod dev team"
@@ -16,14 +14,14 @@ description='''
 Example mod that uses Kotlin for Forge.
 '''
 [[dependencies.examplemod]]
-    modId="forge"
-    mandatory=true
-    versionRange="[36,)"
-    ordering="NONE"
-    side="BOTH"
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
 [[dependencies.examplemod]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.16.5]"
-    ordering="NONE"
-    side="BOTH"
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="BOTH"
